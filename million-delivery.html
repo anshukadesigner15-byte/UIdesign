@@ -1,0 +1,938 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Million – Seamless Delivery Service</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Gothic+A1:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+  <link href="CSS/style.css" rel="stylesheet"/>
+  
+</head>
+<body>
+
+<!-- ════════════════ TOPBAR ════════════════ -->
+<div class="topbar" role="complementary">
+  <div class="container">
+    <div class="topbar__inner">
+      <div class="topbar__left">
+        <a href="tel:+18005550199">
+          <!-- Phone icon -->
+          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81 19.79 19.79 0 01.21 1.18 2 2 0 012.18 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.91 7.15a16 16 0 006.72 6.72l1.52-1.52a2 2 0 012.11-.45c.907.34 1.85.573 2.81.7A2 2 0 0122 15.48v1.44z"/></svg>
+          +1 (800) 555-0199
+        </a>
+        <a href="mailto:info@milliondeliveries.com">
+          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+          info@milliondeliveries.com
+        </a>
+      </div>
+      <div class="topbar__right">
+        <a href="#" class="topbar__social" aria-label="Facebook">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/></svg>
+        </a>
+        
+        <a href="#" class="topbar__social" aria-label="Instagram">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+        </a>
+        <a href="#" class="topbar__social" aria-label="LinkedIn">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"/><circle cx="4" cy="4" r="2"/></svg>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ════════════════ HEADER ════════════════ -->
+<header class="header" id="hdr">
+  <div class="left-p-15">
+    <nav class="nav" aria-label="Primary">
+      <!-- Logo -->
+      <a href="#" class="nav__logo" aria-label="Million home">
+      <img src="Image/logo.png" alt="logo"/>
+      </a>
+
+      <!-- Desktop links -->
+      <ul class="nav__links" role="list">
+        <li><a href="#" class="nav__link">Home</a></li>
+        <!-- Dropdown -->
+        <li class="dropdown">
+          <a href="#services" class="nav__link">Services ▾</a>
+          <ul class="dropdown__menu">
+            <li><a href="#">Packagin Services</a></li>
+            <li><a href="#">Packagin Services</a></li>
+            <li><a href="#">Packagin Services</a></li>
+          </ul>
+        </li>
+        
+        <li><a href="#why_us" class="nav__link">Why Us</a></li>
+        <li><a href="#" class="nav__link">Track</a></li>
+        <li><a href="#" class="nav__link">FAQ's</a></li>
+        <li><a href="#contact" class="nav__link">Contact Us</a></li>
+        <li><a href="#" class="nav__link">Location</a></li>
+         <!-- Dropdown -->
+        <li class="dropdown">
+          <a href="#login" class="nav__link">Login ▾</a>
+          <ul class="dropdown__menu">
+            <li><a href="#">Account</a></li>
+            <li><a href="#">Admin</a></li>
+            <li><a href="#">Driver</a></li>
+          </ul>
+        </li>
+         <li><a href="#" class="nav__link">Location</a></li>
+         <li><a href="#" class="nav__link">API</a></li>
+
+      </ul>
+
+      <!-- CTA buttons -->
+      <div class="nav__ctas">
+        <a href="#" class="btn get-a">Get A Quote 
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <g clip-path="url(#clip0_1407_3134)">
+                          <mask id="mask0_1407_3134" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24">
+                          <rect width="24" height="24" fill="#D9D9D9"/>
+                          </mask>
+                        <g mask="url(#mask0_1407_3134)">
+                        <path d="M6.4 18L5 16.6L14.6 7H6V5H18V17H16V8.4L6.4 18Z" fill="#525252"/>
+                        </g>
+                        </g>
+                        <defs>
+                        <clipPath id="clip0_1407_3134">
+                        <rect width="24" height="24" fill="white"/>
+                        </clipPath>
+                        </defs>
+                        </svg>
+                </a>
+        <a href="#" class="btn btn--blue">Track Your Order <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g clip-path="url(#clip0_1407_3165)">
+                <mask id="mask0_1407_3165" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24">
+                <rect width="24" height="24" fill="#D9D9D9"/>
+                </mask>
+                <g mask="url(#mask0_1407_3165)">
+                <path d="M12 6.5C12.663 6.5 13.2989 6.76339 13.7678 7.23223C14.2366 7.70107 14.5 8.33696 14.5 9C14.5 9.3283 14.4353 9.65339 14.3097 9.95671C14.1841 10.26 13.9999 10.5356 13.7678 10.7678C13.5356 10.9999 13.26 11.1841 12.9567 11.3097C12.6534 11.4353 12.3283 11.5 12 11.5C11.337 11.5 10.7011 11.2366 10.2322 10.7678C9.76339 10.2989 9.5 9.66304 9.5 9C9.5 8.33696 9.76339 7.70107 10.2322 7.23223C10.7011 6.76339 11.337 6.5 12 6.5ZM12 2C13.8565 2 15.637 2.7375 16.9497 4.05025C18.2625 5.36301 19 7.14348 19 9C19 13.4539 13.962 19.707 12.4341 21.5011C12.2036 21.7717 11.7964 21.7717 11.5659 21.5011C10.038 19.707 5 13.4539 5 9C5 7.14348 5.7375 5.36301 7.05025 4.05025C8.36301 2.7375 10.1435 2 12 2ZM12 4C10.6739 4 9.40215 4.52678 8.46447 5.46447C7.52678 6.40215 7 7.67392 7 9C7 9.96702 7 11.8691 11.5214 18.0613C11.7582 18.3856 12.2418 18.3856 12.4786 18.0613C17 11.8691 17 9.96702 17 9C17 7.67392 16.4732 6.40215 15.5355 5.46447C14.5979 4.52678 13.3261 4 12 4Z" fill="#EAEEF0"/>
+                </g>
+                </g>
+                <defs>
+                <clipPath id="clip0_1407_3165">
+                <rect width="24" height="24" fill="white"/>
+                </clipPath>
+                </defs>
+                </svg>
+                </a>
+       
+      </div>
+       <button class="nav__burger" id="burger" aria-label="Open menu" aria-expanded="false">
+          <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_1554_1043)">
+<mask id="mask0_1554_1043" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="4" y="4" width="24" height="24">
+<rect x="4.5" y="4.5" width="23" height="23" fill="#D9D9D9" stroke="#5051F9"/>
+</mask>
+<g mask="url(#mask0_1554_1043)">
+<path d="M7 10H25" stroke="#D9E6FB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M7 16H19" stroke="#D9E6FB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M7 22H23" stroke="#D9E6FB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+<defs>
+<clipPath id="clip0_1554_1043">
+<rect width="32" height="32" fill="white"/>
+</clipPath>
+</defs>
+</svg>
+
+        </button>
+    </nav>
+  </div>
+</header>
+
+<!-- Mobile drawer -->
+<div class="nav__drawer" id="drawer" role="dialog" aria-modal="true" aria-label="Mobile menu">
+  <div class="nav__drawer-head">
+    <a href="#" class="nav__logo">
+      <img src="Image/logo-m.png" alt="logo"/>
+    </a>
+    <button class="nav__drawer-close" id="drawerClose" aria-label="Close menu">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<mask id="mask0_5_2417" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24">
+<rect x="0.5" y="0.5" width="23" height="23" fill="#D9D9D9" stroke="#5051F9"/>
+</mask>
+<g mask="url(#mask0_5_2417)">
+<path d="M18 6L6 18M6 6L18 18" stroke="white" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</svg>
+</button>
+  </div>
+  <nav class="nav__drawer-links" aria-label="Mobile navigation">
+    <a href="#" class="nav__drawer-link">Home</a>
+    <a href="#services" class="nav__drawer-link">Services</a>
+    
+          <a href="#"  class="nav__drawer-link dropdown">Services ▾</a>
+          <ul class="dropdown__menu">
+              <li> <a href="#"  class="nav__drawer-link">Packagin Services</a></li>
+            <li><a href="#"  class="nav__drawer-link">Packagin Services</a></li>
+            <li><a href="#"  class="nav__drawer-link">Packagin Services</a></li>
+          </ul>
+        
+        <a href="#why_us" class="nav__drawer-link">Why Us</a>
+        <a href="#" class="nav__drawer-link">Track</a>
+        <a href="#" class="nav__drawer-link">FAQ's</a>
+        <a href="#contact" class="nav__drawer-link">Contact Us</a>
+        <a href="#" class="nav__drawer-link">Location</a>
+  </div>
+</div>
+
+<main>
+
+<!-- ════════════════ HERO ════════════════ -->
+<section class="hero" aria-labelledby="hero-h1">
+    <!-- Background Video -->
+  <video class="hero__video" autoplay muted loop playsinline>
+    <source src="video/package delivery.mp4" type="video/mp4">
+  </video>
+
+  <!-- Overlay -->
+  <div class="hero__overlay"></div>
+
+
+  <div class="container">
+    <div  class="relative">
+      <div class="hero__content">
+      <h1 class="hero__h1" id="hero-h1">
+        Seamless Service,<br>
+        Right To Your Door.
+      </h1>
+      <p class="hero__p">
+       Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+      <div class="hero__btns">
+        <a href="#" class="btn btn--blue">
+        
+          Get A Quote 
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <g clip-path="url(#clip0_1407_49)">
+                      <mask id="mask0_1407_49" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24">
+                      <rect width="24" height="24" fill="#D9D9D9"/>
+                      </mask>
+                      <g mask="url(#mask0_1407_49)">
+                      <path d="M6.4 18L5 16.6L14.6 7H6V5H18V17H16V8.4L6.4 18Z" fill="white"/>
+                      </g>
+                      </g>
+                      <defs>
+                      <clipPath id="clip0_1407_49">
+                      <rect width="24" height="24" fill="white"/>
+                      </clipPath>
+                      </defs>
+         </svg>
+
+        </a>
+       
+      </div>
+      </div>
+     
+
+      <!-- Tracking card (static on mobile, floats on desktop) -->
+      <div class="track-card" id="trackCard">
+        <p class="track-card__ttl">Track Your Delivery</p>
+        <div class="track-card__row">
+          <input type="text" class="track-card__inp" id="trackInput" placeholder="Enter Tracking Number" aria-label="Tracking number"/>
+          <button class="track-card__go" id="trackBtn">Track Your Order <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_1554_2805)">
+<mask id="mask0_1554_2805" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24">
+<rect width="24" height="24" fill="#D9D9D9"/>
+</mask>
+<g mask="url(#mask0_1554_2805)">
+<path d="M12 6.5C12.663 6.5 13.2989 6.76339 13.7678 7.23223C14.2366 7.70107 14.5 8.33696 14.5 9C14.5 9.3283 14.4353 9.65339 14.3097 9.95671C14.1841 10.26 13.9999 10.5356 13.7678 10.7678C13.5356 10.9999 13.26 11.1841 12.9567 11.3097C12.6534 11.4353 12.3283 11.5 12 11.5C11.337 11.5 10.7011 11.2366 10.2322 10.7678C9.76339 10.2989 9.5 9.66304 9.5 9C9.5 8.33696 9.76339 7.70107 10.2322 7.23223C10.7011 6.76339 11.337 6.5 12 6.5ZM12 2C13.8565 2 15.637 2.7375 16.9497 4.05025C18.2625 5.36301 19 7.14348 19 9C19 13.4539 13.962 19.707 12.4341 21.5011C12.2036 21.7717 11.7964 21.7717 11.5659 21.5011C10.038 19.707 5 13.4539 5 9C5 7.14348 5.7375 5.36301 7.05025 4.05025C8.36301 2.7375 10.1435 2 12 2ZM12 4C10.6739 4 9.40215 4.52678 8.46447 5.46447C7.52678 6.40215 7 7.67392 7 9C7 9.96702 7 11.8691 11.5214 18.0613C11.7582 18.3856 12.2418 18.3856 12.4786 18.0613C17 11.8691 17 9.96702 17 9C17 7.67392 16.4732 6.40215 15.5355 5.46447C14.5979 4.52678 13.3261 4 12 4Z" fill="white"/>
+</g>
+</g>
+<defs>
+<clipPath id="clip0_1554_2805">
+<rect width="24" height="24" fill="white"/>
+</clipPath>
+</defs>
+</svg>
+</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ════════════════ TRUSTED PARTNER ════════════════ -->
+<section class="why" id="why_us">
+  <div class="container why__wrapper">
+
+    <!-- LEFT CONTENT -->
+    <div class="why__left">
+      <p class="why__tag">Why Choose Us</p>
+      <h2 class="why__title">
+        Your Trusted Partner in Delivery Excellence
+      </h2>
+      <a href="#" class="btn btn--blue">Contact Us <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<mask id="mask0_1554_97" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24">
+<rect width="24" height="24" fill="#D9D9D9"/>
+</mask>
+<g mask="url(#mask0_1554_97)">
+<path d="M6.4 18L5 16.6L14.6 7H6V5H18V17H16V8.4L6.4 18Z" fill="white"/>
+</g>
+</svg>
+</a>
+    </div>
+
+    <!-- RIGHT CARDS -->
+    <div class="why__cards">
+
+      <div class="card card--top">
+        <div class="icon"><svg width="92" height="92" viewBox="0 0 92 92" fill="none" xmlns="http://www.w3.org/2000/svg">
+<mask id="mask0_5_2970" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="92" height="92">
+<rect width="92" height="92" fill="#D9D9D9"/>
+</mask>
+<g mask="url(#mask0_5_2970)">
+<path d="M44.8471 11.7561C44.6449 11.8908 44.3484 12.1873 44.2137 12.3895C43.9711 12.7533 43.9576 13.1307 43.9576 18.8852C43.9576 25.61 43.9441 25.4617 44.7932 26.0816C45.4131 26.5129 46.5451 26.5129 47.165 26.0816C48.0006 25.4752 48.0006 25.4617 48.0006 20.3271C48.0006 16.3516 48.0275 15.6777 48.1893 15.6777C48.2971 15.6777 49.0787 15.7721 49.9143 15.8799C61.0863 17.3488 70.776 25.1652 74.5494 35.7174C76.5574 41.3775 76.8809 47.6846 75.4389 53.3852C72.7166 64.1125 64.3342 72.5623 53.6068 75.3924C47.9871 76.8748 41.5184 76.6188 36.0738 74.7051C31.6535 73.1418 27.8666 70.7564 24.5514 67.4277C19.8076 62.6975 16.8967 56.9025 15.9129 50.2721C15.6299 48.2506 15.5625 44.3963 15.7916 42.4961C16.6002 36.0139 19.3898 30.0303 23.8775 25.1922C24.4031 24.6262 24.8883 24.0063 24.9557 23.8176C25.333 22.8338 24.8748 21.6074 23.9719 21.1896C22.8129 20.6641 22.1795 20.9066 20.7644 22.3621C15.7377 27.591 12.3685 34.9492 11.6004 42.3209C11.3982 44.3154 11.5195 49.5309 11.8025 51.3232C12.9211 58.2771 16.115 64.7324 20.9531 69.7996C26.2629 75.352 32.7316 78.7885 40.3728 80.1227C42.7178 80.527 47.6906 80.6213 50.1703 80.2979C66.1805 78.2898 78.6059 65.6893 80.3443 49.6791C80.56 47.725 80.4521 42.4961 80.1557 40.6902C78.498 30.448 72.474 21.5805 63.593 16.2707C58.5393 13.252 52.4074 11.5 46.9225 11.5C45.4939 11.5 45.184 11.5404 44.8471 11.7561Z" fill="#0258E5"/>
+<path d="M28.3248 27.4293C27.5432 27.8336 27.058 28.6961 27.1793 29.4777C27.2332 29.8686 29.0121 32.7795 34.0254 40.6633C41.2219 51.9836 41.5318 52.4148 43.1625 53.3852C45.5478 54.7867 48.3375 54.9484 50.6285 53.8299C54.4828 51.9297 55.7092 47.159 53.3643 43.1834C52.3939 41.5527 51.9627 41.2428 40.6424 34.0598C32.799 29.0734 29.8746 27.2811 29.4703 27.2137C29.0525 27.1463 28.7965 27.2002 28.3248 27.4293Z" fill="#0258E5"/>
+</g>
+</svg>
+</div>
+        <h3>Delivered On Time</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      </div>
+
+      <div class="card card--left">
+        <div class="icon"><svg width="92" height="92" viewBox="0 0 92 92" fill="none" xmlns="http://www.w3.org/2000/svg">
+<mask id="mask0_1407_2793" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="92" height="92">
+<rect width="92" height="92" fill="#D9D9D9"/>
+</mask>
+<g mask="url(#mask0_1407_2793)">
+<path d="M15.6478 23.8599C14.7344 24.429 14.6296 24.8333 14.5847 27.9478L14.5248 30.7629H12.8627C10.9759 30.7629 10.4219 30.9726 9.98765 31.7961C9.65822 32.44 9.70315 33.7278 10.0625 34.3118C10.5267 35.0904 11.0358 35.2551 12.9076 35.2551H14.5547V37.4264V39.5976H11.7845C7.99611 39.5976 7.66669 39.7773 7.66669 41.8586C7.66669 43.94 8.25067 44.2395 12.2337 44.2395H14.5547V46.4107V48.582H11.7845C7.99611 48.582 7.66669 48.7616 7.66669 50.843C7.66669 52.9244 8.25067 53.2239 12.2337 53.2239H14.5547V56.7128C14.5547 60.037 14.5697 60.2317 14.8991 60.8606C15.4681 61.9986 15.8574 62.1184 18.8522 62.1783L21.4278 62.2382L21.5176 62.7024C21.7123 63.6008 22.6257 65.2779 23.3893 66.1314C25.0215 67.9583 27.2975 68.9615 29.8281 68.9765C31.4903 68.9915 32.5534 68.7219 34.0808 67.9283C35.9375 66.955 37.6895 64.8137 38.1986 62.8372L38.3783 62.2083H49.7136H61.0489L61.4232 63.2714C62.0222 65.0533 63.2201 66.5657 64.8223 67.6139C67.7422 69.5155 71.7253 69.4556 74.5554 67.4641C76.1127 66.371 77.1459 65.0084 77.7748 63.2115L78.1042 62.2382L80.3653 62.1783C82.3718 62.1334 82.6712 62.1034 83.1504 61.804C84.2435 61.1152 84.2136 61.4296 84.1537 52.4752L84.1087 44.4641L83.5547 43.2961C82.5215 41.1399 80.3503 39.5377 78.209 39.343L77.3106 39.2532L74.8099 35.0605C73.4323 32.7545 71.9199 30.3886 71.4558 29.8046C69.2696 27.0494 66.1699 25.0279 62.6511 24.0546L61.1986 23.6503L38.6628 23.6054C16.5013 23.5754 16.112 23.5754 15.6478 23.8599ZM57.5599 35.1353C57.6048 42.1132 57.6048 42.233 57.9343 42.7421C58.114 43.0266 58.4883 43.401 58.7578 43.5657C59.237 43.8502 59.5814 43.8652 68.6107 43.94C77.4903 44.0149 77.9994 44.0299 78.4486 44.2994C78.7031 44.4641 79.0625 44.8385 79.2272 45.1379C79.5267 45.692 79.5417 45.8866 79.5417 51.6366V57.5663L78.6882 57.5514H77.8197L77.2357 56.3385C75.2442 52.1907 69.8835 50.4986 65.5261 52.6399C63.834 53.4784 62.2318 55.2154 61.6029 56.8925L61.3633 57.5663H49.7435L38.1387 57.5514L37.5697 56.3534C35.5931 52.1757 30.2175 50.4986 25.8002 52.6698C24.3776 53.3586 22.8653 54.9159 22.1315 56.3984L21.5625 57.5663H20.3796H19.1966V50.9179V44.2545L24.9317 44.2096C30.3373 44.1646 30.6817 44.1497 31.1608 43.8652C32.5235 43.0566 32.5834 40.6907 31.2656 39.8821C30.8314 39.6126 30.4121 39.5976 25.0065 39.5976H19.1966V37.4264V35.2551H21.7422H24.2728L24.8119 34.7909C25.8002 33.9224 25.86 32.3652 24.9616 31.3769L24.4675 30.8378L21.8321 30.7929L19.1966 30.748V29.4003V28.0676H38.3633H57.515L57.5599 35.1353ZM63.9987 29.595C65.4512 30.3437 66.9486 31.6015 67.9219 32.8892C68.3412 33.4283 69.4043 35.1054 70.2878 36.5878L71.89 39.2981H67.0235H62.1719V34.0422V28.8014L62.5163 28.8912C62.696 28.9511 63.3698 29.2655 63.9987 29.595ZM31.4753 56.6829C34.1556 57.8958 34.7097 61.3547 32.5235 63.3014C31.6849 64.065 30.9961 64.3346 29.888 64.3346C27.1478 64.3495 25.1862 61.6093 26.0697 59.0038C26.3542 58.1952 27.3574 57.1471 28.2559 56.7278C29.2292 56.2636 30.5319 56.2486 31.4753 56.6829ZM70.8867 56.5481C71.7403 56.8027 72.8483 57.8508 73.2526 58.7792C73.642 59.7226 73.627 61.205 73.1927 62.0735C71.9798 64.5891 68.7604 65.1132 66.739 63.1516C65.9603 62.4029 65.571 61.4596 65.586 60.3515C65.586 59.2434 65.8555 58.5546 66.6192 57.7161C67.6823 56.5331 69.3294 56.0839 70.8867 56.5481Z" fill="#0258E5"/>
+</g>
+</svg>
+</div>
+        <h3>Fastest Delivery</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      </div>
+
+      <div class="card card--right">
+        <div class="icon"><svg width="92" height="92" viewBox="0 0 92 92" fill="none" xmlns="http://www.w3.org/2000/svg">
+<mask id="mask0_1407_2799" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="92" height="92">
+<rect width="92" height="92" fill="#D9D9D9"/>
+</mask>
+<g mask="url(#mask0_1407_2799)">
+<path d="M44.3666 8.13082C43.3334 8.63993 42.8093 9.19397 42.3002 10.2871C41.9708 10.9759 41.9408 11.2304 41.9408 13.6113V16.2018H39.3503C36.3555 16.2018 35.7416 16.3365 34.6934 17.2649C34.3191 17.5944 33.8399 18.2382 33.6153 18.7024C33.2709 19.4062 33.196 19.7207 33.211 20.679C33.226 21.6673 33.3458 22.1914 34.1394 24.5123C34.6485 25.9947 35.0528 27.2376 35.0528 27.2975C35.0528 27.3574 34.6934 27.597 34.2592 27.8515C33.226 28.4355 32.2826 29.4837 31.7136 30.6966C31.2644 31.6399 31.2344 31.8046 31.2344 33.4368C31.2344 35.1289 31.2494 35.1738 31.8034 36.2968C32.1778 37.0755 32.612 37.6595 33.1661 38.1686L33.9597 38.9023L31.8034 41.358C27.6557 46.0748 25.8887 48.6204 23.8223 52.8131C21.9057 56.7063 20.8126 59.8509 20.004 63.8938C19.1355 68.1764 18.9109 73.3274 19.4799 75.5885C20.3933 79.1373 22.6394 81.8326 25.9636 83.36C28.1797 84.3782 27.3262 84.3333 46.5827 84.3333C65.8392 84.3333 64.9857 84.3782 67.2019 83.36C70.5261 81.8326 72.7722 79.1373 73.6856 75.5885C74.2546 73.3274 74.03 68.1764 73.1615 63.8938C72.3679 59.9257 71.2748 56.7363 69.418 52.9628C67.3516 48.7402 65.5248 46.1048 61.4369 41.4329L59.2058 38.9023L59.9695 38.1985C60.3887 37.8092 60.8379 37.33 60.9428 37.1204L61.1374 36.7461L61.9011 37.1953C62.3204 37.4349 63.2637 37.8541 64.0124 38.1087C65.2553 38.528 65.5847 38.5729 67.696 38.6328C70.3015 38.7076 70.7357 38.5878 71.2898 37.6894C71.6791 37.0605 71.6941 35.8177 71.3347 35.1888C70.8555 34.3951 70.3614 34.2155 68.3249 34.1106C66.1836 34.0058 65.0756 33.6914 63.698 32.7929C63.1739 32.4635 62.7546 32.149 62.7546 32.1041C62.7546 32.0592 62.9642 31.6998 63.2038 31.3105C64.3868 29.4837 66.3783 28.2858 68.6693 28.0312C70.2266 27.8515 70.8855 27.567 71.2898 26.9082C71.6941 26.2643 71.6941 24.9765 71.3047 24.3776C70.7807 23.5839 70.3015 23.3893 68.879 23.3893C65.7494 23.3893 62.3952 24.9765 60.2839 27.4472C59.9545 27.8365 59.64 28.166 59.5951 28.166C59.5502 28.1809 59.1459 27.9863 58.6817 27.7317L57.8581 27.2825L59.64 20.1399C61.2722 13.5664 61.4219 12.8925 61.362 11.8593C61.2722 10.1074 60.4935 8.87952 58.9812 8.13082L58.0678 7.66663H45.28L44.3666 8.13082ZM56.7051 12.4882C56.6602 12.6829 55.8366 16.0221 54.8783 19.9004L53.1264 26.983H50.7006L49.3679 22.97C47.9903 18.8073 47.6609 18.0735 46.8972 17.3398L46.433 16.8906V12.1588H56.795L56.7051 12.4882ZM44.681 23.7337C45.2351 25.3958 45.6843 26.8183 45.6843 26.8782C45.6843 26.9381 44.3816 26.983 42.7943 26.983H39.9193L38.9011 23.9433C38.3471 22.2812 37.8978 20.8587 37.8978 20.7988C37.8978 20.7389 39.2006 20.694 40.7878 20.694H43.6628L44.681 23.7337ZM55.7767 31.58C56.1511 31.6399 56.5254 31.8496 56.8549 32.179C57.2891 32.6132 57.364 32.778 57.364 33.4218C57.364 34.0657 57.2891 34.2304 56.8549 34.6647C56.5254 34.9941 56.1511 35.2037 55.7767 35.2636C55.4473 35.3235 51.3145 35.3684 46.5827 35.3684C41.851 35.3684 37.7182 35.3235 37.3887 35.2636C37.0144 35.2037 36.64 34.9941 36.3106 34.6647C35.8764 34.2304 35.8015 34.0657 35.8015 33.4218C35.8015 32.778 35.8614 32.6132 36.3256 32.164C36.6101 31.8795 37.0294 31.625 37.254 31.58C37.9428 31.4752 55.1478 31.4752 55.7767 31.58ZM56.9896 43.4694C61.7813 48.9648 63.3536 51.166 65.3152 55.179C68.0254 60.7493 69.4629 66.8886 69.3282 72.444C69.2683 74.5254 69.2683 74.5553 68.6993 75.7083C67.6062 77.9095 65.5697 79.3919 63.2038 79.6914C61.7214 79.886 31.4441 79.886 29.9616 79.6914C27.5958 79.3919 25.5593 77.9095 24.4662 75.7083C23.8972 74.5553 23.8972 74.5254 23.8373 72.444C23.7025 66.8287 25.1999 60.4498 27.9701 54.9244C29.9317 51.0162 31.474 48.845 36.1758 43.4694L39.3204 39.8756L46.5827 39.8606H53.8451L56.9896 43.4694Z" fill="#0258E5"/>
+<path d="M45.3249 48.83C44.8458 49.1445 44.3366 49.8483 44.3366 50.1927C44.3366 50.3274 44.0971 50.5221 43.8126 50.6269C42.959 50.9264 41.7012 52.1992 41.1622 53.3073C40.698 54.2506 40.668 54.3854 40.668 55.9576C40.668 57.455 40.698 57.6796 41.0723 58.3535C41.821 59.791 43.2136 60.7793 45.9988 61.8873C46.8523 62.2168 47.7357 62.5911 47.9454 62.7109C48.739 63.1152 48.8588 64.2532 48.1999 65.0918C47.7357 65.6907 47.1518 65.9153 46.0736 65.9153C45.265 65.9153 44.9506 65.8255 44.0971 65.3912C42.4799 64.5377 41.1921 64.7024 40.4284 65.8554C40.0391 66.4544 40.0391 67.7871 40.4434 68.386C40.8178 68.955 42.3751 69.9134 43.4382 70.2129C44.157 70.4075 44.2917 70.5123 44.5313 71.0214C44.681 71.3359 45.0254 71.7252 45.295 71.9049C45.9538 72.3092 47.2416 72.3092 47.8406 71.9199C48.3497 71.5755 48.8288 70.9017 48.8288 70.4824C48.8438 70.2727 49.0684 70.0781 49.6225 69.8235C50.6557 69.3294 52.1081 67.8619 52.6172 66.7838C53.7702 64.358 53.3959 61.5878 51.6739 59.7161C50.9701 58.9524 50.0417 58.4283 48.0951 57.6946C47.2865 57.3802 46.3132 56.9459 45.9389 56.7213C45.3549 56.3919 45.2351 56.2421 45.2351 55.8678C45.2351 55.5833 45.3848 55.2838 45.6244 55.0293C45.9688 54.6849 46.0886 54.6549 46.8972 54.7148C47.4662 54.7597 47.9304 54.8795 48.1999 55.0892C49.5027 56.0475 51.2696 55.748 51.8835 54.4752C52.6322 52.903 51.7038 51.3457 49.5775 50.552C49.0534 50.3574 48.8438 50.1777 48.6342 49.7285C48.4844 49.414 48.14 49.0247 47.8705 48.845C47.2116 48.4407 45.9239 48.4407 45.3249 48.83Z" fill="#0258E5"/>
+</g>
+</svg>
+</div>
+        <h3>Cost Effective</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+<!-- ════════════════ HOW IT WORKS ════════════════ -->
+<section class="steps" aria-labelledby="steps-h2">
+  <div class="container">
+<div class="main-text">
+    <p class="lbl lbl--light">Real-Time Tracking</p>
+        <h2 class="steps__h2" id="steps-h2">Stay Informed Every Step<br>of Your Delivery</h2>
+</div>
+
+    <div class="steps__grid">
+ <!-- Phone -->
+      <div class="sr d2" style="display:flex;justify-content:center">
+        <div class="step-card">
+          <div class="step__screen">
+            <p class="ps-ttl">Create Your Labelt</p>
+            <div class="ps-field">2715 Ash Dr. San Jose, South Dakota 83475</div>
+            <div class="ps-field">Million Road Freight</div>
+            <div class="ps-field">Package Weight (kg)</div>
+            <div class="ps-field">Delivery Type ▾</div>
+            <div class="ps-btn"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_1554_2286)">
+<mask id="mask0_1554_2286" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24">
+<rect width="24" height="24" fill="#D9D9D9"/>
+</mask>
+<g mask="url(#mask0_1554_2286)">
+<path d="M1 19V5H3V19H1ZM4 19V5H6V19H4ZM7 19V5H8V19H7ZM10 19V5H12V19H10ZM13 19V5H16V19H13ZM17 19V5H18V19H17ZM20 19V5H23V19H20Z" fill="white"/>
+</g>
+</g>
+<defs>
+<clipPath id="clip0_1554_2286">
+<rect width="24" height="24" fill="white"/>
+</clipPath>
+</defs>
+</svg>
+ Print Label</div>
+          </div>
+        </div>
+      </div>
+      <div class="sr">
+      
+        <ol class="step-list" id="stepList">
+          <li class="step active" data-i="0">
+            <span class="step__num">1.</span>
+            <div>
+              <h3 class="step__ttl">Create Your Label</h3>
+              <p class="step__p">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+ <button class="btn-step">Contact Us
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_1554_2042)">
+<mask id="mask0_1554_2042" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24">
+<rect width="24" height="24" fill="#D9D9D9"/>
+</mask>
+<g mask="url(#mask0_1554_2042)">
+<path d="M6.4 18L5 16.6L14.6 7H6V5H18V17H16V8.4L6.4 18Z" fill="#0258E5"/>
+</g>
+</g>
+<defs>
+<clipPath id="clip0_1554_2042">
+<rect width="24" height="24" fill="white"/>
+</clipPath>
+</defs>
+</svg>
+
+              </button>
+              </p>
+             
+            </div>
+          </li>
+          <li class="step" data-i="1">
+            <span class="step__num">2.</span>
+            <div>
+              <h3 class="step__ttl">Get Your Tracking Number</h3>
+              <p class="step__p">Receive a unique tracking number via email to monitor your shipment in real time.</p>
+            </div>
+          </li>
+          <li class="step" data-i="2">
+            <span class="step__num">3.</span>
+            <div>
+              <h3 class="step__ttl">Check The Status</h3>
+              <p class="step__p">Use our tracking portal to see exactly where your package is at every moment.</p>
+            </div>
+          </li>
+        </ol>
+      </div>
+
+     
+
+    </div>
+  </div>
+</section>
+
+<!-- ════════════════ SERVICES ════════════════ -->
+<section class="services" id="services" aria-labelledby="services-h2">
+  <div class="container">
+    <div class="services__top">
+      <div class="services__left sr">
+        <p class="lbl">Our Services</p>
+        <h2 class="services__h2" id="services-h2">Services That Align<br>With Your Needs</h2>
+      </div>
+      <div class="services__right sr d2">
+        <p class="services__p">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur..</p>
+        <a href="#" class="btn btn--blue">Request A Quote <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_1554_1898)">
+<mask id="mask0_1554_1898" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24">
+<rect width="24" height="24" fill="#D9D9D9"/>
+</mask>
+<g mask="url(#mask0_1554_1898)">
+<path d="M6.4 18L5 16.6L14.6 7H6V5H18V17H16V8.4L6.4 18Z" fill="white"/>
+</g>
+</g>
+<defs>
+<clipPath id="clip0_1554_1898">
+<rect width="24" height="24" fill="white"/>
+</clipPath>
+</defs>
+</svg>
+</a>
+      </div>
+    </div>
+
+    <div class="services__grid">
+      <!-- Land -->
+     <!-- LEFT IMAGE CARD -->
+  <div class="services_card">
+    <img src="Image/Service Main Card.png" alt="">
+    <div class="services_overlay">
+      <h3>Fast Delivery Service</h3>
+    </div>
+    <div class="arrow"></div>
+  </div>
+
+   <div class="services_card">
+    <img src="Image/Service Sub Card.png" alt="">
+    <div class="services_overlay">
+      <h3>Fast Delivery Service</h3>
+    </div>
+    <div class="arrow"></div>
+  </div>
+
+   <div class="services_card">
+    <img src="Image/Service Sub Card (1).png" alt="">
+    <div class="services_overlay">
+      <h3>Fast Delivery Service</h3>
+    </div>
+    <div class="arrow"></div>
+  </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ════════════════ SOLUTIONS ════════════════ -->
+<section class="solutions" id="solutions" aria-labelledby="solutions-h2">
+  <div class="container">
+    <div class="solutions__ttl-wrap sr">
+      <p class="lbl" style="justify-content:center">Our Solutions</p>
+      <h2 class="solutions__h2" id="solutions-h2">Comprehensive Delivery Solutions</h2>
+    </div>
+<section class="delivery-solutions">
+
+  <!-- LEFT BIG -->
+  <div class="ds-left">
+    <img src="Image/left-img.jpg" alt="">
+    <!-- <div class="content">
+      <img src="Image/Image Block.png" alt="">
+      <h2>Finding the best routes<br>for your fastest Delivery.</h2>
+    </div> -->
+  </div>
+
+  <!-- RIGHT SIDE -->
+  <div class="ds-right">
+
+    <!-- TOP -->
+    <div class="ds-top">
+      <img src="Image/Image Container.png" alt="">
+      <!-- <div class="content">
+        We help our customers to get reliable shipping services.
+      </div> -->
+    </div>
+
+    <!-- BOTTOM -->
+    <div class="ds-bottom">
+
+      <!-- PACKING -->
+      <div class="ds-card">
+        <img src="Image/Image Container (1).png" alt="">
+        <!-- <div class="content">
+          Securely packed for Safe transit.
+        </div> -->
+      </div>
+
+      <!-- RIGHT COLUMN -->
+      <div class="ds-right-inner" style="display:grid; gap:15px;">
+
+        <!-- BLUE CARD -->
+        <div class="ds-blue">
+          <h3>Effortlessly Ship Your Packages</h3>
+          <button>Request A Quote ↗</button>
+        </div>
+
+        <!-- SMALL IMAGE -->
+        <div class="ds-card ds-small">
+          <img src="Image/right-img.jpg" alt="">
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+  </div>
+</section>
+
+<!-- ════════════════ STATS ════════════════ -->
+<section class="delivery-packege">
+
+  <!-- BACKGROUND IMAGE -->
+  <img src="Image/Package-bg.jpg" alt="">
+
+  <!-- BOX 1 -->
+  <div class="stat-box box1">
+    <h2>5M +</h2>
+    <div class="line"></div>
+    <p>Packages delivered annually</p>
+  </div>
+
+  <!-- BOX 2 -->
+  <div class="stat-box box2">
+    <h2>20 +</h2>
+    <div class="line"></div>
+    <p>Stations all over Canada</p>
+  </div>
+
+  <!-- BOX 3 -->
+  <div class="stat-box box3">
+    <h2>476</h2>
+    <div class="line"></div>
+    <p>Tons of goods</p>
+  </div>
+
+</section>
+
+<!-- ════════════════ COVERAGE ════════════════ -->
+<section class="coverage" id="coverage" aria-labelledby="coverage-h2">
+  <div class="container">
+    <div class="coverage__grid">
+
+      <div class="sr">
+        <p class="lbl lbl--light">Coverage</p>
+        <h2 class="coverage__h2" id="coverage-h2">Where Is Your Place?<br>We Deliver All Across<br>Canada.</h2>
+        <p class="coverage__p">Our vast network of distribution hubs and local partners means we can reach even the most remote addresses across every province and territory.</p>
+        <a href="#" class="btn btn--blue">Contact Us</a>
+      </div>
+
+      <div class="map-wrap sr d2">
+       <img src="Image/Canada Map.png" alt="">
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ════════════════ TESTIMONIAL ════════════════ -->
+<section class="testi" aria-labelledby="testi-h2">
+  <div class="container">
+    <div class="testi__grid">
+
+      <!-- Image / Illustration -->
+      <div class="testi__img-wrap sr">
+        <img src="Image/test-Image.png" alt="">
+      </div>
+
+      <!-- Content -->
+      <div class="sr d2 testim">
+        <p class="lbl">Million Deliveries</p>
+        <h2 class="testi__h2" id="testi-h2">Logistics Solutions to Help Businesses<br>From End to End</h2>
+        <div class="stars" aria-label="5 stars">
+          <span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span>
+        </div>
+        <blockquote id="tQuote">
+          "Working with Million has transformed our supply chain. Their team is incredibly responsive, packages arrive on time every time, and their tracking system is top-notch. I couldn't imagine running our business without them."
+        </blockquote>
+        <div class="author">
+          <div class="author__av" id="tAv">SL</div>
+          <div>
+            <p class="author__name" id="tName">Sarah L.</p>
+            <p class="author__role" id="tRole">Operations Director, NovaTech Inc.</p>
+          </div>
+        </div>
+        <div class="testi__dots" role="tablist">
+          <button class="tdot on" data-i="0" role="tab" aria-selected="true" aria-label="Testimonial 1"></button>
+          <button class="tdot" data-i="1" role="tab" aria-selected="false" aria-label="Testimonial 2"></button>
+          <button class="tdot" data-i="2" role="tab" aria-selected="false" aria-label="Testimonial 3"></button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ════════════════ CTA ════════════════ -->
+<section class="cta-sec" aria-labelledby="cta-h2">
+ 
+
+  <div class="cta-sec__veil"></div>
+  <div class="container">
+    <div class="cta-sec__content sr">
+      <p class="hero__sup" style="justify-content:center;margin-bottom:1.2rem">Million Deliveries</p>
+      <h2 class="cta-sec__h2" id="cta-h2">
+        Delivered to Every Place,<br>Wherever You Are.
+      </h2>
+      <div class="cta-sec__btns">
+        <a href="#" class="btn btn--blue">
+          Contact Us
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_1740_1507)">
+<mask id="mask0_1740_1507" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24">
+<rect width="24" height="24" fill="#D9D9D9"/>
+</mask>
+<g mask="url(#mask0_1740_1507)">
+<path d="M6.4 18L5 16.6L14.6 7H6V5H18V17H16V8.4L6.4 18Z" fill="white"/>
+</g>
+</g>
+<defs>
+<clipPath id="clip0_1740_1507">
+<rect width="24" height="24" fill="white"/>
+</clipPath>
+</defs>
+</svg>
+</a>
+      </div>
+    </div>
+  </div>
+</section>
+<section>
+  <div class="partner-logo-slider">
+  <div class="partner-logo-slide">
+    <div class="partner-logo-box">
+      <img src="Image/million-logo.png"> Rail Freight
+    </div>
+    <div  class="partner-logo-box">
+      <img src="Image/million-logo.png"> Land Transportation
+    </div>
+    <div  class="partner-logo-box">
+      <img src="Image/million-logo.png"> Ocean Freight
+    </div>
+    
+  </div>
+</div>
+</section>
+
+</main>
+
+<!-- ════════════════ FOOTER ════════════════ -->
+<footer class="footer" id="contact" aria-label="Site footer">
+  <div class="container">
+    <div class="footer__grid">
+ <!-- Quick links -->
+      <div>
+        <h3 class="footer__col-h">Company</h3>
+        <ul class="footer__links">
+          <li><a href="#" class="footer__lnk">About Us</a></li>
+          <li><a href="#" class="footer__lnk">Why Us</a></li>
+          <li><a href="#" class="footer__lnk">Track</a></li>
+          <li><a href="#" class="footer__lnk">Resources</a></li>
+          <li><a href="#" class="footer__lnk">FAQs</a></li>
+            <li><a href="#" class="footer__lnk">Contact Us</a></li>
+        </ul>
+      </div>
+
+      <!-- Services -->
+      <div>
+        <h3 class="footer__col-h">Services</h3>
+        <ul class="footer__links">
+          <li><a href="#" class="footer__lnk">Land Transportation</a></li>
+          <li><a href="#" class="footer__lnk">Ocean Freight</a></li>
+          <li><a href="#" class="footer__lnk">Rail Freight</a></li>
+          <li><a href="#" class="footer__lnk">Air Cargo</a></li>
+          <li><a href="#" class="footer__lnk">Same-Day Delivery</a></li>
+        </ul>
+      </div>
+
+      <!-- Services -->
+      <div>
+        <h3 class="footer__col-h">Legal</h3>
+        <ul class="footer__links">
+          <li><a href="#" class="footer__lnk">Package Tracking</a></li>
+          <li><a href="#" class="footer__lnk">Business Shipping</a></li>
+          <li><a href="#" class="footer__lnk">Freight Solutions</a></li>
+          <li><a href="#" class="footer__lnk">Express Delivery</a></li>
+          <li><a href="#" class="footer__lnk">International</a></li>
+        </ul>
+      </div>
+
+     
+
+      <!-- Newsletter -->
+      <div class="newsletter-box">
+        <h3 class="footer__col-h">Subscribe To Our <br/> Newsletter</h3>
+        <p class="nl-txt">Get the latest updates on new services and special offers.</p>
+        <form class="nl-form" id="nlForm" novalidate>
+          <input type="text" class="nl-inp" placeholder="Company Name" aria-label="Company name"/>
+          <input type="email" class="nl-inp" placeholder="Email Address" aria-label="Email address" required/>
+          <button type="submit" class="nl-btn">Subscribe →</button>
+        </form>
+        <a href="tel:+18005550199" class="footer__contact-row">
+          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81 19.79 19.79 0 01.21 1.18 2 2 0 012.18 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.91 7.15a16 16 0 006.72 6.72l1.52-1.52a2 2 0 012.11-.45c.907.34 1.85.573 2.81.7A2 2 0 0122 15.48v1.44z"/></svg>
+          +1 (800) 555-0199
+        </a>
+        <a href="mailto:info@milliondeliveries.com" class="footer__contact-row">
+          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+          info@milliondeliveries.com
+        </a>
+      </div>
+
+    </div>
+
+    <div class="footer__bot">
+      <p class="footer__copy">© 2025 Million Delivery Services. All rights reserved.</p>
+      <div class="footer__bot-links">
+        <a href="#" class="footer__bot-lnk">Privacy Policy</a>
+        <a href="#" class="footer__bot-lnk">Terms of Service</a>
+        <a href="#" class="footer__bot-lnk">Cookie Policy</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Toast -->
+<div id="toast" role="status" aria-live="polite"></div>
+
+<!-- ════════════════ JAVASCRIPT ════════════════ -->
+<script>
+'use strict';
+
+/* ── Sticky header ── */
+const hdr = document.getElementById('hdr');
+window.addEventListener('scroll', () => {
+  hdr.classList.toggle('scrolled', window.scrollY > 20);
+}, { passive: true });
+
+
+
+/* ── Mobile nav ── */
+const burger = document.getElementById('burger');
+const drawer = document.getElementById('drawer');
+const drawerClose = document.getElementById('drawerClose');
+
+const openDrawer = () => {
+  drawer.style.display = 'flex';
+  requestAnimationFrame(() => drawer.classList.add('open'));
+  burger.classList.add('open');
+  burger.setAttribute('aria-expanded', 'true');
+  document.body.style.overflow = 'hidden';
+};
+const closeDrawer = () => {
+  drawer.classList.remove('open');
+  burger.classList.remove('open');
+  burger.setAttribute('aria-expanded', 'false');
+  document.body.style.overflow = '';
+  setTimeout(() => { drawer.style.display = 'none'; }, 380);
+};
+
+burger.addEventListener('click', openDrawer);
+drawerClose.addEventListener('click', closeDrawer);
+document.querySelectorAll('.nav__drawer-link').forEach(l => l.addEventListener('click', closeDrawer));
+document.addEventListener('keydown', e => { if (e.key === 'Escape') closeDrawer(); });
+
+/* ── Scroll reveal ── */
+const srEls = document.querySelectorAll('.sr');
+const srObs = new IntersectionObserver(entries => {
+  entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('in'); srObs.unobserve(e.target); } });
+}, { threshold: 0.1, rootMargin: '0px 0px -36px 0px' });
+srEls.forEach(el => srObs.observe(el));
+
+/* ── Steps accordion ── */
+const steps = document.querySelectorAll('.step');
+let stepIdx = 0;
+const activateStep = i => {
+  steps.forEach(s => s.classList.remove('active'));
+  steps[i].classList.add('active');
+  stepIdx = i;
+};
+steps.forEach((s, i) => s.addEventListener('click', () => activateStep(i)));
+setInterval(() => activateStep((stepIdx + 1) % steps.length), 3600);
+
+/* ── Testimonials ── */
+const tData = [
+  { q: '"Working with Million has transformed our supply chain. Their team is incredibly responsive, packages arrive on time every time, and their tracking system is top-notch. I couldn\'t imagine running our business without them."', name: 'Sarah L.', role: 'Operations Director, NovaTech Inc.', av: 'SL' },
+  { q: '"Million delivered beyond our expectations. Their cross-Canada coverage is unmatched and customer service is always ready to help. Our shipments arrive faster than ever before."', name: 'James R.', role: 'Logistics Manager, Pacific Goods Co.', av: 'JR' },
+  { q: '"The real-time tracking feature saved us countless hours of customer inquiries. Million\'s technology and reliability have made them our go-to shipping partner for 3 years running."', name: 'Priya M.', role: 'CEO, Maple E-commerce', av: 'PM' }
+];
+let tIdx = 0;
+const tQuote = document.getElementById('tQuote');
+const tName  = document.getElementById('tName');
+const tRole  = document.getElementById('tRole');
+const tAv    = document.getElementById('tAv');
+const tdots  = document.querySelectorAll('.tdot');
+
+const showT = i => {
+  tIdx = i;
+  const t = tData[i];
+  tQuote.style.opacity = '0';
+  setTimeout(() => {
+    tQuote.textContent = t.q;
+    tName.textContent  = t.name;
+    tRole.textContent  = t.role;
+    tAv.textContent    = t.av;
+    tQuote.style.transition = 'opacity .3s';
+    tQuote.style.opacity = '1';
+  }, 200);
+  tdots.forEach((d, j) => {
+    d.classList.toggle('on', j === i);
+    d.setAttribute('aria-selected', j === i ? 'true' : 'false');
+  });
+};
+tdots.forEach((d, i) => d.addEventListener('click', () => showT(i)));
+setInterval(() => showT((tIdx + 1) % tData.length), 5500);
+
+/* ── Track form ── */
+const trackInput = document.getElementById('trackInput');
+const trackBtn   = document.getElementById('trackBtn');
+const toast      = document.getElementById('toast');
+let toastTimer;
+
+const showToast = msg => {
+  clearTimeout(toastTimer);
+  toast.textContent = msg;
+  toast.style.transform = 'translateY(0)';
+  toastTimer = setTimeout(() => { toast.style.transform = 'translateY(130%)'; }, 3500);
+};
+
+trackBtn.addEventListener('click', () => {
+  const v = trackInput.value.trim();
+  if (!v) {
+    trackInput.style.borderColor = '#EF4444';
+    trackInput.focus();
+    setTimeout(() => { trackInput.style.borderColor = ''; }, 2000);
+    return;
+  }
+  showToast(`Tracking "${v}"… Redirecting.`);
+  trackInput.value = '';
+});
+trackInput.addEventListener('keydown', e => { if (e.key === 'Enter') trackBtn.click(); });
+
+/* ── Newsletter ── */
+document.getElementById('nlForm').addEventListener('submit', e => {
+  e.preventDefault();
+  showToast('Subscribed! Welcome to Million updates.');
+  e.target.reset();
+});
+
+/* ── Counter animation ── */
+const animNum = (el, target, suffix) => {
+  const dur = 2200;
+  const start = performance.now();
+  const tick = now => {
+    const t = Math.min((now - start) / dur, 1);
+    const ease = 1 - Math.pow(1 - t, 3);
+    el.textContent = Math.floor(ease * target).toLocaleString() + suffix;
+    if (t < 1) requestAnimationFrame(tick);
+  };
+  requestAnimationFrame(tick);
+};
+
+let counted = false;
+const statsEl = document.querySelector('.stats');
+const cntObs = new IntersectionObserver(entries => {
+  if (entries[0].isIntersecting && !counted) {
+    counted = true;
+    animNum(document.getElementById('sn1'), 5, 'M+');
+    animNum(document.getElementById('sn2'), 20, '+');
+    animNum(document.getElementById('sn3'), 476, '');
+  }
+}, { threshold: 0.3 });
+if (statsEl) cntObs.observe(statsEl);
+
+/* ── Smooth scroll ── */
+document.querySelectorAll('a[href^="#"]').forEach(a => {
+  a.addEventListener('click', e => {
+    const id = a.getAttribute('href');
+    if (id === '#') return;
+    const t = document.querySelector(id);
+    if (t) { e.preventDefault(); t.scrollIntoView({ behavior: 'smooth', block: 'start' }); }
+  });
+});
+
+/* ── partner-logo-slide ── */
+document.addEventListener("DOMContentLoaded", function () {
+  const slides = document.querySelectorAll(".partner-logo-slide");
+  const cloneCount = 3;
+
+  slides.forEach(function (slide) {
+    const originalChildren = Array.from(slide.children);
+
+    for (let i = 0; i < cloneCount; i++) {
+      originalChildren.forEach(function (child) {
+        slide.appendChild(child.cloneNode(true));
+      });
+    }
+  });
+});
+</script>
+</body>
+</html>
